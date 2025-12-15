@@ -13,7 +13,7 @@ let package = Package(
         .library(name: "Leaf", targets: ["Leaf"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/leaf-kit.git", from: "1.12.0"),
+        .package(url: "https://github.com/Butanediol/leaf-kit.git", branch: "main"),
         .package(url: "https://github.com/vapor/vapor.git", from: "4.114.1"),
         .package(url: "https://github.com/apple/swift-algorithms.git", from: "1.2.1"),
     ],
